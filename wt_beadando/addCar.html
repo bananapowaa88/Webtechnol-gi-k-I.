@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hu">
+<script src="js/addCar.js" type="text/javascript"></script>
+<form method="post">
+  <table style="border: none;">
+    <tr>
+      <td>Car name: </td>
+      <td><input type="text" name="carname" required="required"></td>
+    </tr>
+    <tr>
+      <td>Consumption: </td>
+      <td><input type="text" name="carconsumption" required="required"></td>
+    </tr>
+    <tr>
+      <td>Color: </td>
+      <td><input type="text" name="carcolor" required="required" "=""></td>
+</tr>
+<tr>
+  <td>Manufacturer: </td><td><select name="carmanufacturer" id="manufacturerselect">
+        <option value="Wututu">Wututu</option>
+        <option value="Bugatti">Bugatti</option>
+        <option value="Ferrari">Ferrari</option>
+        <option value="Toyota">Toyota</option>
+        <option value="Tesla">Tesla</option>
+        <option value="Renault">Renault</option>
+        <option value="teszt">teszt</option>
+        <option value="Ford">Ford</option>
+        <option value="---">---</option></select>
+      </td>
+    </tr>
+    <tr>
+      <td>Available: </td>
+      <td><input type="number" name="caravailable" required="required"></td>
+    </tr>
+    <tr>
+      <td>Year: </td>
+      <td><input type="number" name="caryear" required="required"></td>
+    </tr>
+    <tr>
+      <td>Horsepower: </td>
+      <td><input type="number" name="carhorsepower" required="required"></td>
+    </tr>
+    <tr>
+      <td colspan="2"><input type="button" value="Add car" onclick="addCar()"></td>
+    </tr>
+  </table>
+</form>
+</html>

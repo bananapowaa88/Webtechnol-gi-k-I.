@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="hu">
+<script src="js/modifyManuf.js" type="text/javascript"></script>
+
+<form method="post">
+  <table style="border: none;">
+    <tbody>
+      <tr>
+        <td>Select car id: </td>
+        <td><select name="ids" id="idselect">
+          </select></td>
+      </tr>
+      <tr>
+        <td>Manufacturer name: </td>
+        <td><input type="text" name="manufacturername" required="required"></td>
+      </tr>
+      <tr>
+        <td>Country: </td>
+        <td><input type="text" name="country" required="required"></td>
+      </tr>
+      <tr>
+        <td>Founded: </td>
+        <td><input type="date" name="founded" required="required"></td>
+      </tr>
+      <tr>
+        <td colspan="2"><input type="button" value="Edit manufacturer" onclick="editManufacturer()"></td>
+      </tr>
+    </tbody>
+  </table>
+</form>
+
+</html>
